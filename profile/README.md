@@ -8,6 +8,13 @@
 
 The PHPTG project aims to make interacting with the Telegram Bot API in PHP simple and convenient.
 
+## Packages
+
+| Package | Description |
+| ------- | ----------- |
+| [phptg/bot-api](https://github.com/phptg/bot-api) | PHP library to interact with Telegram Bot API |
+| [phptg/transport-psr](https://github.com/phptg/transport-psr) | PSR transport for Telegram Bot API |
+
 > [!IMPORTANT]
 > This project is developed and maintained by [Sergei Predvoditelev](https://github.com/vjik).
 > Community support helps keep the project actively developed and well maintained.
