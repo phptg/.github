@@ -1,0 +1,32 @@
+name: 🐛 Bug report
+description: Let us know about a problem
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > ⚠️ DON'T REPORT SECURITY VULNERABILITIES here. Use the **Report a vulnerability** button on the repository's **Security** tab instead.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem, what you expected to happen and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code to reproduce
+      description: Minimal code that reproduces the problem.
+      render: php
+  - type: input
+    id: package-version
+    attributes:
+      label: Package version
+      description: Specify the exact package version you're using.
+      placeholder: "1.0.3"
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      description: Specify the exact PHP version you're using (run `php -v` to check).
+      placeholder: "8.5.0"
